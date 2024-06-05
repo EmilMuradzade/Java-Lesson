@@ -5,7 +5,7 @@ public class TaskFor3 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Müsbet tam eded daxil edin");
         int a = sc.nextInt();
-        if (a > 0 && a % 1 == 0) {
+        if (a > 0 &&  a % 1 == 0) {
             for (int i = 1; i < 10; i++) {
                 System.out.println(a + "*" + i + "=" + (a * i));
 
